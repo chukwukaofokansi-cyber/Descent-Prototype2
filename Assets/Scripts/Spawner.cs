@@ -33,13 +33,13 @@ public class Spawner : MonoBehaviour
                 }// this should cause the spawn rate to increase overtime till it reaches a min amount of ime between spawns
 
                 TimeBtwSpawns = startTimeBtwSpawns;
-                //Spawn Asteroid
-            }
-            else
+            //Spaws The hazards at the random spawn point and resets the timer for the next spawn
+        }
+        else
             {
                 TimeBtwSpawns -= Time.deltaTime;
             }// this is th timer between the spawns
         
         
     }
-}
+}// GDT
