@@ -13,7 +13,7 @@ public class DestroyFire : MonoBehaviour
 
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.8f);
         Destroy(gameObject);
     }// this is the function that will wait for 0.5 seconds before destroying the fire object
 }// GDT

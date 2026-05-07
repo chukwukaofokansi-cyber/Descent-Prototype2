@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6322244190031562491}
   - component: {fileID: 8383334778729201315}
   - component: {fileID: 5808706570911485117}
+  - component: {fileID: 4945825152257108437}
   m_Layer: 6
   m_Name: Geyser-Fire
   m_TagString: Geyser
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6355948899695156795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.64, y: 2.87, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,3 +179,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f4df001719c66449973b01dcad23df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4945825152257108437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6355948899695156795}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c0059935833164585d08570a4e503d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  respawnPoint: {fileID: 0}

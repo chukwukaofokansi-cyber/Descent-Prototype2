@@ -8,6 +8,7 @@ public class FallingPlatforms : MonoBehaviour
 
     private float fallDelay = 0.5f;
     private float DestroyDelay = 2f;
+    private float RespawnDelay = 1.0f;
 
     [SerializeField] private Rigidbody2D platform;
     [SerializeField] private Animator falling;
@@ -31,9 +32,10 @@ public class FallingPlatforms : MonoBehaviour
         platform.bodyType = RigidbodyType2D.Dynamic;
         Destroy(gameObject, DestroyDelay);
            
-
-    }
         
+    }
+
+   
 
 
 
