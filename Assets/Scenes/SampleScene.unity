@@ -5624,17 +5624,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6981299923427745315, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: currentSceneIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477198725157193606, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277614209442081804, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8064308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277614209442081804, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5997041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277614209442081804, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.015386581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277614209442081804, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.17566282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277614209442081804, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315049615981156750, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315049615981156750, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: sceneBuildIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5406074858291416354, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 5406074858291416354, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
+      propertyPath: m_TagString
+      value: LevelExit
+      objectReference: {fileID: 0}
     - target: {fileID: 6175192680253834342, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.42
+      value: -3.62
       objectReference: {fileID: 0}
     - target: {fileID: 6175192680253834342, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.26
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6175192680253834342, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_LocalPosition.z
