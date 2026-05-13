@@ -20,7 +20,6 @@ public class HellCheckpointanimation : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             animation.Play("CheckPoint Active animation");
-
             
         }
     }
