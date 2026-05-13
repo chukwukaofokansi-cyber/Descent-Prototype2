@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - CheckPoint
+  - Geyser
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 834273241
+    locked: 0
+  - name: Grass
+    uniqueID: 1198836319
     locked: 0
   m_RenderingLayers:
   - Default
