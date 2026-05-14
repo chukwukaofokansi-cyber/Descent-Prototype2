@@ -5,7 +5,7 @@ public class MenuSystem : MonoBehaviour
 
 public void OnStartClick()
     {
-        SceneManager.LoadScene("Kieran");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void OnCreditClick()

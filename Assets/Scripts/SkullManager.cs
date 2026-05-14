@@ -17,15 +17,29 @@ public class SkullManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-            void Start()
+        void Start()
+        {
+            totalSkulls = 0;
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Tutorial")
             {
-                totalSkulls = 0;
+                Skull_Text.text = "Skulls: " + totalSkulls + "/1";
+            }
+            else
+            {
                 Skull_Text.text = "Skulls: " + totalSkulls + "/3";
             }
+        }
     }
     public void changeSkulls(int amount)
     {
         totalSkulls += amount;
-        Skull_Text.text = "Skulls: " + totalSkulls + "/3";
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Tutorial")
+        {
+            Skull_Text.text = "Skulls: " + totalSkulls + "/1";
+        }
+        else
+        {
+            Skull_Text.text = "Skulls: " + totalSkulls + "/3";
+        }
     }
 }
