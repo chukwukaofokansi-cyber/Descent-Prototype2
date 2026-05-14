@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4992d5d87c6afca4aa8910d3be43a2f9
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 61ddadfeb59c80a4d93a878de89c5235
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: cca2409505f957045be227789b71d0b1
   - enabled: 1
     path: Assets/Scenes/Kieran.unity
     guid: bb80186074e7aa84b8e8a2ea657954ba
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
