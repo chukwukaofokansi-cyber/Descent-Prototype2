@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
@@ -23,7 +23,9 @@ public class PlayerHealth : MonoBehaviour
         {
             playerSr.enabled = false;
             playerMovement.enabled = false;
-            
+
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 }
