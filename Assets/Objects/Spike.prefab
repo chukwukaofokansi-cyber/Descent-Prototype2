@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7283962109857595023}
   - component: {fileID: 3474004242565287107}
   - component: {fileID: 1239652342395020947}
+  - component: {fileID: -5842693123868061111}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Respawn
@@ -147,5 +148,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c0059935833164585d08570a4e503d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  damage: 1
   Player: {fileID: 0}
   respawnPoint: {fileID: 0}
+--- !u!114 &-5842693123868061111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757611758553672221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffeaa0ec04ba8044a572f3ca98641d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  damage: 1
