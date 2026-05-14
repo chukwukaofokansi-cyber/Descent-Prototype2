@@ -2423,6 +2423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c0059935833164585d08570a4e503d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  damage: 1
   Player: {fileID: 631526872}
   respawnPoint: {fileID: 406136163}
 --- !u!61 &1120930878
@@ -5626,7 +5628,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6981299923427745315, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: currentSceneIndex
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1477198725157193606, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_SortingOrder
