@@ -6,7 +6,7 @@ TagManager:
   tags:
   - CheckPoint
   - Geyser
-  - Skull Collectable
+  - LevelExit
   layers:
   - Default
   - TransparentFX
@@ -47,7 +47,7 @@ TagManager:
   - name: Player
     uniqueID: 834273241
     locked: 0
-  - name: Grass
+  - name: ui
     uniqueID: 1198836319
     locked: 0
   m_RenderingLayers:
