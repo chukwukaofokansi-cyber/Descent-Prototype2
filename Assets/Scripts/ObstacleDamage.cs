@@ -17,11 +17,11 @@ public class ObstacleDamage : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) // This method is called when the GameObject this script is attached to collides with another GameObject
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player") // Check if the colliding GameObject has the tag "Player"
         {
-            playerHealth.TakeDamage(damage);
+            playerHealth.TakeDamage(damage); // If the colliding GameObject is the player, call the TakeDamage method on the playerHealth reference, passing in the damage value to reduce the player's health accordingly
         }
     }
 }

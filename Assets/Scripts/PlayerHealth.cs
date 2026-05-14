@@ -16,14 +16,14 @@ public class PlayerHealth : MonoBehaviour
     }
 
     
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount) // This method is called to reduce the player's health by a specified amount, and it also checks if the player's health has reached zero or below, in which case it disables the player's sprite renderer and movement components to visually indicate that the player has died
     {
-        health -= amount;
+        health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
-            playerSr.enabled = false;
-            playerMovement.enabled = false;
-            
+            playerSr.enabled = false; // Disable the player's sprite renderer component to make the player invisible in the scene, visually indicating that the player has died
+            playerMovement.enabled = false; // Disable the player's movement component to prevent the player from moving in the scene, further reinforcing the visual indication that the player has died
+
         }
     }
 }
