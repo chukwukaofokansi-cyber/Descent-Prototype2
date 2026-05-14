@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine; // Chukwuka
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private float InputHorizontalLeft;
 
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundlayer; 
+    [SerializeField] private LayerMask groundlayer;
 
     Vector2 MoveDirection; 
     void Start()

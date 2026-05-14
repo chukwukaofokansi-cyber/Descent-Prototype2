@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine; // Code by Kieran
 using UnityEngine.UI;   
 
 public class HealthDisplay : MonoBehaviour

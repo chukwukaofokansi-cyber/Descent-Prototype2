@@ -1,4 +1,4 @@
-using TMPro;
+using TMPro; // Code by Kieran (AI overview example followed)
 using UnityEngine;
 
 public class ShowTextOnTouch : MonoBehaviour

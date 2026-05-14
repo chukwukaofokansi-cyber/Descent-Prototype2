@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2ca5be1dba042fd47979ac39d86a6431
+guid: a98421345d7fd6c4d816cc7db8b7cd17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915611350077522009
-    second: Broken Tiles Tutorial_0
+      213: 4317599326419938910
+    second: Tiles Tutorial_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -53,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -96,11 +96,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_0
+      name: Tiles Tutorial_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7af30c8658d38cbb0800000000000000
-      internalID: -4915611350077522009
+      spriteID: e5ee9b536b13beb30800000000000000
+      internalID: 4317599326419938910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_1
+      name: Tiles Tutorial_1
       rect:
         serializedVersion: 2
         x: 16
@@ -137,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 592bcd980160b8e4db9b8bcb86d5b324
-      internalID: -1985108456
+      spriteID: 937d54a1927d8d94bba8fb2351e40936
+      internalID: 839071918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_2
+      name: Tiles Tutorial_2
       rect:
         serializedVersion: 2
         x: 32
@@ -159,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65581523198ca3c48a08f941ed8dcf06
-      internalID: 84495601
+      spriteID: e5ff981e0deb61e4ab00690024b8cf4d
+      internalID: -1360852714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_3
+      name: Tiles Tutorial_3
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d931d00e7f3040642b6942e03966047f
-      internalID: 760422695
+      spriteID: d921c73cd5b7d154ba837dfcb8a45a89
+      internalID: 1802532728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_4
+      name: Tiles Tutorial_4
       rect:
         serializedVersion: 2
         x: 16
@@ -203,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba1fefe0cc2b57849b16f3988a50a056
-      internalID: 614564366
+      spriteID: 6b3110962cb030f4ba39bf05d37d341b
+      internalID: -1356744314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_5
+      name: Tiles Tutorial_5
       rect:
         serializedVersion: 2
         x: 32
@@ -225,14 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a06ae1107b8e249b586c00d997d11c
-      internalID: 1728882804
+      spriteID: 8477e2a2eb822e84da84d1c5e5157ac1
+      internalID: 484350153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_6
+      name: Tiles Tutorial_6
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09ad43da1c266d7499c33130db843405
-      internalID: -472608567
+      spriteID: ed38a11d08d4d27448707260040a6977
+      internalID: 250472514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_7
+      name: Tiles Tutorial_7
       rect:
         serializedVersion: 2
         x: 16
@@ -269,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9249d1ad7fed084b93b5bb1063e58da
-      internalID: -1892219645
+      spriteID: 10027e2ad233a6747bd3ae3ac83469aa
+      internalID: -1465549145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broken Tiles Tutorial_8
+      name: Tiles Tutorial_8
       rect:
         serializedVersion: 2
         x: 32
@@ -291,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9331b27b21f54f4e868f067b864afac
-      internalID: 1685530709
+      spriteID: c169cd3032ee6974588052acb4519aca
+      internalID: -1678346491
       vertices: []
       indices: 
       edges: []
@@ -301,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b1ce9daee2d0dbe43a4f217a8a9ddb5e
+    spriteID: 645286cc8b938b64cba6c269612ecbb4
     internalID: 0
     vertices: []
     indices: 
@@ -311,15 +324,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Broken Tiles Tutorial_0: -4915611350077522009
-      Broken Tiles Tutorial_1: -1985108456
-      Broken Tiles Tutorial_2: 84495601
-      Broken Tiles Tutorial_3: 760422695
-      Broken Tiles Tutorial_4: 614564366
-      Broken Tiles Tutorial_5: 1728882804
-      Broken Tiles Tutorial_6: -472608567
-      Broken Tiles Tutorial_7: -1892219645
-      Broken Tiles Tutorial_8: 1685530709
+      Tiles Tutorial_0: 4317599326419938910
+      Tiles Tutorial_1: 839071918
+      Tiles Tutorial_2: -1360852714
+      Tiles Tutorial_3: 1802532728
+      Tiles Tutorial_4: -1356744314
+      Tiles Tutorial_5: 484350153
+      Tiles Tutorial_6: 250472514
+      Tiles Tutorial_7: -1465549145
+      Tiles Tutorial_8: -1678346491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

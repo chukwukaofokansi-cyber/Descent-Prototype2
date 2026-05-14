@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CheckPoint
   - Geyser
+  - Skull Collectable
   layers:
   - Default
   - TransparentFX
