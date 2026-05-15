@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer playerSr;
     public PlayerMovement playerMovement;
 
+    SceneController sceneController;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,9 +23,8 @@ public class PlayerHealth : MonoBehaviour
         health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
-            playerSr.enabled = false; // Disable the player's sprite renderer component to make the player invisible in the scene, visually indicating that the player has died
-            playerMovement.enabled = false; // Disable the player's movement component to prevent the player from moving in the scene, further reinforcing the visual indication that the player has died
-
+            SceneController.instance.currentSceneIndex++;// Increases the scene index by 1 to load the next scene
+            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneController.instance.currentSceneIndex);// Loads the scene based on the current scene
         }
     }
 }
