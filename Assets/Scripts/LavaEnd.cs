@@ -1,4 +1,4 @@
-using UnityEngine; // Code by Kieran
+using UnityEngine; // Code by Kieran (AI assisted)
 
 public class LavaEnd : MonoBehaviour
 {
