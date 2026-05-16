@@ -14,9 +14,10 @@ public class RisingLava : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isRising)
+        if (isRising == true)
         {
             transform.Translate(Vector3.up * riseSpeed * Time.deltaTime); // Move the lava upwards at a speed defined by riseSpeed, multiplied by Time.deltaTime to ensure smooth movement regardless of frame rate
         }
+        
     }
 }
