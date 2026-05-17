@@ -1,9 +1,11 @@
-using UnityEngine;
+using UnityEngine; // Chukwuka
 using System.Collections.Generic;
 using System.Collections;
 
 public class TheRespawnScript : MonoBehaviour
 {
+    public PlayerHealth playerHealth;
+    public int damage = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject Player;
@@ -25,6 +27,7 @@ public class TheRespawnScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Player.transform.position = respawnPoint.transform.position;
+            playerHealth.TakeDamage(damage);
         }
     }
 }
