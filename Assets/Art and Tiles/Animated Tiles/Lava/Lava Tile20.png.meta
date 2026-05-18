@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 77278ac1e5cd8404485b04321378de59
+guid: 161cbb577076a9e408fb0a754edc4dd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4536077582406681593
-    second: Lava Tile Long1_0
+      213: -9031518135737460647
+    second: Lava Tile20_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,11 +100,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lava Tile Long1_0
+      name: Lava Tile20_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -115,146 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f386fc278263fe30800000000000000
-      internalID: 4536077582406681593
+      spriteID: 958ded84b1a99a280800000000000000
+      internalID: -9031518135737460647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97ea64a65fecad4498d81aa3a03f4043
-      internalID: -521948081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24834767655b5e44eb6d4bbbf29d032d
-      internalID: 1358784149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fef0317f162adb4b9b0b78bfd2baf0e
-      internalID: -237394934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ecd9c1f2c6e0aa45bd228b966b665da
-      internalID: -1848468030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b25db86c0be8c8e4b92f2aedebb97eab
-      internalID: 1541925462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5c0d5bfacea35147a6cb58572c01df6
-      internalID: 579864665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava Tile Long1_7
+      name: Lava Tile20_1
       rect:
         serializedVersion: 2
         x: 16
@@ -269,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a00a8f83c67401c418c1b568853bafa9
-      internalID: -1738573709
+      spriteID: e080f23933e716745ba3e2e8a19699b3
+      internalID: 1754633342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_8
+      name: Lava Tile20_2
       rect:
         serializedVersion: 2
         x: 32
@@ -291,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1023fe644dc2874ea54bb860d90a3b6
-      internalID: 747187995
+      spriteID: e86d009e09531f140a7d5abc7131dcf6
+      internalID: 830842209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_9
+      name: Lava Tile20_3
       rect:
         serializedVersion: 2
         x: 0
@@ -313,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb7ae55084173d34e9b6fc9b70a09823
-      internalID: -53260246
+      spriteID: bcc796d6b3bb1cd4e99928d064bfebaf
+      internalID: 657620724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_10
+      name: Lava Tile20_4
       rect:
         serializedVersion: 2
         x: 16
@@ -335,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2561d8338f5624345a6a7d001e7373bc
-      internalID: -841162334
+      spriteID: 0ce396fbfe55202439870f7eb02ae185
+      internalID: 762676667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_11
+      name: Lava Tile20_5
       rect:
         serializedVersion: 2
         x: 32
@@ -357,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48ae6a5374e860a45b2a5200503ff499
-      internalID: 858258175
+      spriteID: a94198e00cf65ce4d824abd649680833
+      internalID: 1726937903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_12
+      name: Lava Tile20_6
       rect:
         serializedVersion: 2
         x: 0
@@ -379,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b08e911698108dc43b21873c96897fbf
-      internalID: 1491962544
+      spriteID: 16e20f781e978b94b9d598127e527079
+      internalID: 1738848700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_13
+      name: Lava Tile20_7
       rect:
         serializedVersion: 2
         x: 16
@@ -401,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b79e0e7609cbb742b0f6c1127f13bd0
-      internalID: 861927363
+      spriteID: 05e12d4f1fb9e0e4f899a5b9254ff83d
+      internalID: 1030855592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava Tile Long1_14
+      name: Lava Tile20_8
       rect:
         serializedVersion: 2
         x: 32
@@ -423,8 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab68f9dea9783a41aaf9f1ed4caa00a
-      internalID: -1965873411
+      spriteID: 11e2e6b38e4f1a64a88424b51b65a315
+      internalID: -1848223282
       vertices: []
       indices: 
       edges: []
@@ -433,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c1329ef24ed79b4459d88e6c98777044
+    spriteID: 8d90f9e7d3912a04aa0cfd2358c66703
     internalID: 0
     vertices: []
     indices: 
@@ -443,21 +311,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lava Tile Long1_0: 4536077582406681593
-      Lava Tile Long1_1: -521948081
-      Lava Tile Long1_10: -841162334
-      Lava Tile Long1_11: 858258175
-      Lava Tile Long1_12: 1491962544
-      Lava Tile Long1_13: 861927363
-      Lava Tile Long1_14: -1965873411
-      Lava Tile Long1_2: 1358784149
-      Lava Tile Long1_3: -237394934
-      Lava Tile Long1_4: -1848468030
-      Lava Tile Long1_5: 1541925462
-      Lava Tile Long1_6: 579864665
-      Lava Tile Long1_7: -1738573709
-      Lava Tile Long1_8: 747187995
-      Lava Tile Long1_9: -53260246
+      Lava Tile20_0: -9031518135737460647
+      Lava Tile20_1: 1754633342
+      Lava Tile20_2: 830842209
+      Lava Tile20_3: 657620724
+      Lava Tile20_4: 762676667
+      Lava Tile20_5: 1726937903
+      Lava Tile20_6: 1738848700
+      Lava Tile20_7: 1030855592
+      Lava Tile20_8: -1848223282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
