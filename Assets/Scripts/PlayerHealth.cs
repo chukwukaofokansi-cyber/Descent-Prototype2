@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer playerSr;
     public PlayerMovement playerMovement;
 
+    public PlayerHealth instance;
+
     SceneController sceneController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
+            Destroy(gameObject); // Destroys the player game object when health is zero or below    
             SceneController.instance.currentSceneIndex++;// Increases the scene index by 1 to load the next scene
             UnityEngine.SceneManagement.SceneManager.LoadScene(SceneController.instance.currentSceneIndex);// Loads the scene based on the current scene
         }

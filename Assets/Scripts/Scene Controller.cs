@@ -1,9 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine; //Greg
 
 public class SceneController : MonoBehaviour
 {
     public int currentSceneIndex;
     public static SceneController instance;
+    public PlayerHealth playerHealth;
 
     private void Awake()
     {
@@ -30,4 +32,15 @@ public class SceneController : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(currentSceneIndex);// Loads the scene based on the current scene index
         }
     }
+
+   private void Update() //Kieran
+    {
+        if (playerHealth.health <= 0) // Checks if the player's health is less than or equal to zero, which indicates that the player has died
+        {
+            currentSceneIndex = 0; // Resets the current scene index to 0, which typically corresponds to the first scene in the game
+            UnityEngine.SceneManagement.SceneManager.LoadScene(currentSceneIndex); // Loads the scene based on the reset current scene index, effectively restarting the game from the beginning
+        }
+
+    } //Kieran end
+
 }// GDT
