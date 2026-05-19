@@ -2,7 +2,7 @@ using UnityEngine; // Code by Kieran
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health;
+    public int health = 3;
     public int maxHealth = 3;
     
     public HealthDisplay healthDisplay;
@@ -25,8 +25,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
-            Destroy(gameObject); // Destroys the player game object when health is zero or below    
-            UnityEngine.SceneManagement.SceneManager.LoadScene(8); ;// Increases the scene index by 1 to load the next scene
+           UnityEngine.SceneManagement.SceneManager.LoadScene(8); // Increases the scene index by 1 to load the next scene
             
         }
     }

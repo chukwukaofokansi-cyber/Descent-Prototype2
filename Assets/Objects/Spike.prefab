@@ -148,10 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c0059935833164585d08570a4e503d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 6539118476883439658, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
   damage: 1
-  Player: {fileID: 0}
-  respawnPoint: {fileID: 0}
+  Player: {fileID: 1182101975253022133, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
+  respawnPoint: {fileID: 3627797962231210148, guid: b1b7796c881350e4ea4d823e3a70df03, type: 3}
 --- !u!114 &-5842693123868061111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fffeaa0ec04ba8044a572f3ca98641d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 6539118476883439658, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
   damage: 1
