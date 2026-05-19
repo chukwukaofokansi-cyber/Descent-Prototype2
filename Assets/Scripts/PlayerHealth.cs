@@ -26,8 +26,8 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0) 
         {
             Destroy(gameObject); // Destroys the player game object when health is zero or below    
-            SceneController.instance.currentSceneIndex++;// Increases the scene index by 1 to load the next scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneController.instance.currentSceneIndex);// Loads the scene based on the current scene
+            UnityEngine.SceneManagement.SceneManager.LoadScene(8); ;// Increases the scene index by 1 to load the next scene
+            
         }
     }
 }
