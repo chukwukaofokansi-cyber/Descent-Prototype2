@@ -7,6 +7,10 @@ public void OnStartClick()// this loads the specific scene when startbutton is p
     {
         SceneManager.LoadScene("Tutorial");
     }
+    public void OnGodModeClick()// this loads the specific scene when startbutton is pressed
+    {
+        SceneManager.LoadScene("Level 3 Godmode");
+    }
 
     public void OnCreditClick()// this loads the specific scene when the credit button is clicked
     {
