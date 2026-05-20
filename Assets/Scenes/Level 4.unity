@@ -6317,7 +6317,7 @@ Transform:
   m_GameObject: {fileID: 496404896}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.293, z: 0}
+  m_LocalPosition: {x: -0.01, y: -0.434, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6458,7 +6458,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.0813584, y: -1080, z: -10}
+  m_LocalPosition: {x: 2.081362, y: -1079.9999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -206950,6 +206950,7 @@ MonoBehaviour:
   groundlayer:
     serializedVersion: 2
     m_Bits: 64
+  Trail: {fileID: 0}
 --- !u!50 &1123680306
 Rigidbody2D:
   serializedVersion: 5
@@ -207011,7 +207012,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0031287968, y: -0.07155096}
+  m_Offset: {x: -0.0029889047, y: -0.21873866}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -207021,7 +207022,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.16188249, y: 0.3790605}
+  m_Size: {x: 0.21573856, y: 0.4509684}
   m_EdgeRadius: 0
 --- !u!212 &1123680308
 SpriteRenderer:
@@ -207064,9 +207065,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1045581217
+  m_SortingLayer: 3
+  m_SortingOrder: 3
   m_Sprite: {fileID: -8626836155920301010, guid: 64d09bdce6a18894aa03c238192de68d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -207088,7 +207089,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.8828, y: -1081.7988, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 6.1564}
+  m_LocalScale: {x: 3, y: 3, z: 6.1564}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 496404897}

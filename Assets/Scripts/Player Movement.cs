@@ -1,3 +1,6 @@
+using System.Collections;
+using Unity.VisualScripting;
+using UnityEditor.Tilemaps;
 using UnityEngine; // Chukwuka (Coyote Time Code by Kieran)
 
 public class PlayerMovement : MonoBehaviour
@@ -9,11 +12,21 @@ public class PlayerMovement : MonoBehaviour
     public float jump = 15f;
     private float InputHorizontalLeft;
 
+    public static PlayerMovement instance;
+    private bool canDash = false;
+    private bool isDashing;
+    private float dashingPower = 15f;
+    private float dashingTime = 0.3f;
+    private float dashingCooldown = 1f;
+    private bool FacingRight = true;
+    
+
     private float coyoteTime = 0.2f;// Coyote time is a game design technique that allows players to jump for a short period of time after leaving a platform, giving them a small window of opportunity to still perform a jump even if they are not technically grounded. This can make the game feel more responsive and forgiving.
     private float coyoteTimeCounter; // CoyoteTimeCounter keeps track of how much time has passed since the player was last grounded. 
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundlayer;
+    [SerializeField] private TrailRenderer Trail;
 
     Vector2 MoveDirection; 
     void Start()
@@ -31,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (isDashing) {
+            return;
+        }
 
         if (Grounded())
         {
@@ -60,7 +77,12 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash) 
+        {
+            StartCoroutine(Dash());   
+        }
 
+        Flip();
 
     }
         
@@ -70,6 +92,46 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        if (isDashing)
+        {
+            return; 
+        }
         rb2d.linearVelocity = new Vector2(InputHorizontalLeft * movespeed, rb2d.linearVelocityY);
+    }
+
+    private void Flip()
+    {
+        if (FacingRight && InputHorizontalLeft < 0f || !FacingRight && InputHorizontalLeft > 0f)
+        {
+            Vector3 LocalScale = transform.localScale;
+            FacingRight = !FacingRight;
+            LocalScale.x *= -1f;
+            transform.localScale = LocalScale;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+       if (collision.gameObject.CompareTag("Dashboots"))
+        {
+            canDash = true;
+            Destroy(collision.gameObject);
+        }
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb2d.gravityScale;
+        rb2d.gravityScale = 0f;
+        rb2d.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        Trail.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        rb2d.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 }
