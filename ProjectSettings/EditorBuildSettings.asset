@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: bb80186074e7aa84b8e8a2ea657954ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -35,6 +35,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 7d27d5f0051800c47aaa0be77153f74d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Godmode.unity
+    guid: 315860275f33b454a9a8f8352b490307
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Godmode.unity
+    guid: 6dba3261544990d4abcac9d7eb32cf8a
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Godmode.unity
+    guid: 94ecb41b536f41c47b60571f23961386
+  - enabled: 1
+    path: Assets/Scenes/WinScreen Godmode.unity
+    guid: 5148210acb5ceaa4a9d465dae1e6ab10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
