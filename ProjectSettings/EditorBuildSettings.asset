@@ -6,8 +6,50 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4992d5d87c6afca4aa8910d3be43a2f9
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 61ddadfeb59c80a4d93a878de89c5235
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: cca2409505f957045be227789b71d0b1
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: bb80186074e7aa84b8e8a2ea657954ba
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/level 2.unity
+    guid: af69d55179201424c9cbf4380b6ba6d4
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 5cac9d459cab06f40a3ab1a12b666241
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: c8d2f2165e12eda45bcde68a322f9b13
+  - enabled: 0
+    path: Assets/Scenes/teset.unity
+    guid: 72bfcdd19e2a8d64aaea4c9e6871c745
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: e4a093e785e245840bfb9388f5a717bd
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 7d27d5f0051800c47aaa0be77153f74d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Godmode.unity
+    guid: 315860275f33b454a9a8f8352b490307
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Godmode.unity
+    guid: 42926edbdb8cda040ae989c7f4e59c7b
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Godmode.unity
+    guid: 94ecb41b536f41c47b60571f23961386
+  - enabled: 1
+    path: Assets/Scenes/WinScreen Godmode.unity
+    guid: 5148210acb5ceaa4a9d465dae1e6ab10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
