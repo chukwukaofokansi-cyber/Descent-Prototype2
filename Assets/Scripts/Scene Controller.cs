@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine; //Greg
 
 public class SceneController : MonoBehaviour
@@ -30,4 +31,7 @@ public class SceneController : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(currentSceneIndex);// Loads the scene based on the current scene index
         }
     }
+
+ 
+
 }// GDT

@@ -2,12 +2,14 @@ using UnityEngine; // Code by Kieran
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health;
+    public int health = 3;
     public int maxHealth = 3;
     
     public HealthDisplay healthDisplay;
     public SpriteRenderer playerSr;
     public PlayerMovement playerMovement;
+
+    public PlayerHealth instance;
 
     SceneController sceneController;
 
@@ -23,8 +25,8 @@ public class PlayerHealth : MonoBehaviour
         health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
-            SceneController.instance.currentSceneIndex++;// Increases the scene index by 1 to load the next scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneController.instance.currentSceneIndex);// Loads the scene based on the current scene
+           UnityEngine.SceneManagement.SceneManager.LoadScene(8); // Increases the scene index by 1 to load the next scene
+            
         }
     }
 }
