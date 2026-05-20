@@ -5,15 +5,16 @@ using System.Collections;
 public class TheCheckPointScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-
+    private ObstacleDamage Obstacle;
     private TheRespawnScript Respawning;
     private BoxCollider2D collide;
+    private BoxCollider2D ObstacleCollide;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Awake()
     {
         collide = GetComponent<BoxCollider2D>();
-        Respawning = GameObject.FindGameObjectWithTag("Respawn").GetComponent<TheRespawnScript>();
+        //Respawning = GameObject.FindGameObjectWithTag("Respawn").GetComponent<TheRespawnScript>();
     }
 
 
@@ -30,9 +31,12 @@ public class TheCheckPointScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("something just hit us");
         if (other.gameObject.CompareTag("Player"))
         {
-            Respawning.respawnPoint = this.gameObject;
+            Debug.Log("player has hit checkpoint!!");
+            other.GetComponent<PlayerRespawn>().UpdateCheckPoint(transform.position);    
+            //Respawning.respawnPoint = this.gameObject;
             collide.enabled = false;
         }
     }
