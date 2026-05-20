@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount; // This line subtracts the specified amount from the player's current health, effectively reducing the player's health by that amount
         if (health <= 0) 
         {
-           UnityEngine.SceneManagement.SceneManager.LoadScene(8); // Increases the scene index by 1 to load the next scene
+           UnityEngine.SceneManagement.SceneManager.LoadScene(7); // Increases the scene index by 1 to load the next scene
             
         }
     }
