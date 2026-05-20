@@ -7,9 +7,9 @@ public class TheRespawnScript : MonoBehaviour
     public PlayerHealth playerHealth;
     public int damage = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject Player;
-    public GameObject respawnPoint;
+    
+    //public GameObject Player;
+    //public GameObject respawnPoint;
     void Start()
     {
 
@@ -26,7 +26,8 @@ public class TheRespawnScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Player.transform.position = respawnPoint.transform.position;
+            other.gameObject.GetComponent<PlayerRespawn>().RespanwNew();
+            //Player.transform.position = respawnPoint.transform.position;
             playerHealth.TakeDamage(damage);
         }
     }

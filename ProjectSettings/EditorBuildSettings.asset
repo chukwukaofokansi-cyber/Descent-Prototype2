@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen Godmode.unity
     guid: 5148210acb5ceaa4a9d465dae1e6ab10
+  - enabled: 1
+    path: Assets/Scenes/level 2.unity
+    guid: af69d55179201424c9cbf4380b6ba6d4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
