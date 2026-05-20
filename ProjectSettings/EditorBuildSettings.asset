@@ -22,6 +22,12 @@ EditorBuildSettings:
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    path: Assets/Scenes/level 2.unity
+    guid: af69d55179201424c9cbf4380b6ba6d4
+  - enabled: 1
+>>>>>>> b96deb4092717a74a1097599441b0350251c9cd8
 =======
     path: Assets/Scenes/level 2.unity
     guid: af69d55179201424c9cbf4380b6ba6d4
@@ -47,7 +53,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3 Godmode.unity
 <<<<<<< HEAD
+<<<<<<< HEAD
     guid: 6dba3261544990d4abcac9d7eb32cf8a
+=======
+    guid: 42926edbdb8cda040ae989c7f4e59c7b
+>>>>>>> b96deb4092717a74a1097599441b0350251c9cd8
 =======
     guid: 42926edbdb8cda040ae989c7f4e59c7b
 >>>>>>> b96deb4092717a74a1097599441b0350251c9cd8
@@ -58,9 +68,12 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScreen Godmode.unity
     guid: 5148210acb5ceaa4a9d465dae1e6ab10
 <<<<<<< HEAD
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/level 2.unity
     guid: af69d55179201424c9cbf4380b6ba6d4
+=======
+>>>>>>> b96deb4092717a74a1097599441b0350251c9cd8
 =======
 >>>>>>> b96deb4092717a74a1097599441b0350251c9cd8
   m_configObjects:
