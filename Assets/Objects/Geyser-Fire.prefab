@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 5808706570911485117}
   - component: {fileID: 4945825152257108437}
   - component: {fileID: -6863159657434008073}
+  - component: {fileID: -5236161458883599802}
   m_Layer: 7
   m_Name: Geyser-Fire
-  m_TagString: Respawn
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c0059935833164585d08570a4e503d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 6539118476883439658, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
+  playerHealth: {fileID: 0}
   damage: 1
   Player: {fileID: 1182101975253022133, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
   respawnPoint: {fileID: 0}
@@ -209,4 +210,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 6539118476883439658, guid: 02837d6225c2efc49a86782711c7c441, type: 3}
+  damage: 1
+--- !u!114 &-5236161458883599802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6355948899695156795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a2252c07c69384290c412119e01bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   damage: 1
