@@ -1,0 +1,57 @@
+Assets/Art and Tiles/Achievements.meta
+Assets/Art and Tiles/Achievements/Level 1 Achievement.png
+Assets/Art and Tiles/Achievements/Level 1 Achievement.png.meta
+Assets/Art and Tiles/Achievements/Level 2 Achievement.png
+Assets/Art and Tiles/Achievements/Level 2 Achievement.png.meta
+Assets/Art and Tiles/Achievements/Level 3 Achievement2.png
+Assets/Art and Tiles/Achievements/Level 3 Achievement2.png.meta
+Assets/Art and Tiles/Achievements/Level 4 Achievement.png
+Assets/Art and Tiles/Achievements/Level 4 Achievement.png.meta
+Assets/Art and Tiles/Achievements/Level Tutorial Achievement.png
+Assets/Art and Tiles/Achievements/Level Tutorial Achievement.png.meta
+Assets/Art and Tiles/Achievements/Locked Achievement\#.png
+Assets/Art and Tiles/Achievements/Locked Achievement\#.png.meta
+Assets/Objects/Geyser-Fire-GM.prefab
+Assets/Objects/Geyser-Fire-GM.prefab.meta
+Assets/Objects/Geyser-Fire.prefab
+Assets/Objects/RespawnPoint-G.prefab
+Assets/Scenes/Achievements.unity
+Assets/Scenes/Achievements.unity.meta
+Assets/Scenes/level 2.unity
+Assets/Scenes/Level 3 Godmode.unity
+Assets/Scenes/Level 3 Godmode.unity.meta
+Assets/Scenes/Level 3.unity
+Assets/Scenes/Level 4 Godmode.unity
+Assets/Scenes/Level 4 Godmode.unity.meta
+Assets/Scenes/Level 4.unity
+Assets/Scenes/MainMenu.unity
+Assets/Scenes/SampleScene.unity
+Assets/Scenes/Tutorial Godmode.unity
+Assets/Scenes/Tutorial Godmode.unity.meta
+Assets/Scenes/Tutorial.unity
+Assets/Scenes/WinScreen Godmode.unity
+Assets/Scenes/WinScreen Godmode.unity.meta
+Assets/Scripts/AchievementManager.cs
+Assets/Scripts/AchievementManager.cs.meta
+Assets/Scripts/Camera movement.cs
+Assets/Scripts/Checkpoint.cs
+Assets/Scripts/FireDamage.cs
+Assets/Scripts/FireDamage.cs.meta
+Assets/Scripts/MenuSystem.cs
+Assets/Scripts/ObstacleDamage.cs
+Assets/Scripts/Player Movement.cs
+Assets/Scripts/PlayerHealth.cs
+Assets/Scripts/PlayerRespawn.cs
+Assets/Scripts/PlayerRespawn.cs.meta
+Assets/Scripts/Respawn.cs
+Assets/Scripts/TheCheckPointScript.cs
+Assets/Scripts/TheRespawnScript.cs
+Assets/Sprites/Group Project Assets/General Concept art/Spike Kieran_0.asset
+Assets/Sprites/Group Project Assets/General Concept art/Spike Kieran_0.asset.meta
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+Assets/TextMesh Pro/Resources/Fonts & Materials/Metropolitan.ttf
+Assets/TextMesh Pro/Resources/Fonts & Materials/Metropolitan.ttf.meta
+ProjectSettings/EditorBuildSettings.asset
