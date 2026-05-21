@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial Godmode.unity
     guid: 315860275f33b454a9a8f8352b490307
   - enabled: 1
+    path: Assets/Scenes/level  2 Godmode.unity
+    guid: 9c2635d905c27a249a28ad8dfec137df
+  - enabled: 1
     path: Assets/Scenes/Level 3 Godmode.unity
     guid: 42926edbdb8cda040ae989c7f4e59c7b
   - enabled: 1

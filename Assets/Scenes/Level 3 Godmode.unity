@@ -7061,6 +7061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &285473176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7764,6 +7765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &751452886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28165,6 +28167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &1187907713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28396,6 +28399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &1380000987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28627,6 +28631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &1421233855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28834,7 +28839,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6981299923427745315, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: currentSceneIndex
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4315049615981156750, guid: f0fdbf82924793c41913eef2c49385e2, type: 3}
       propertyPath: m_Enabled
@@ -29726,6 +29731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &1716416497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58532,6 +58538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678911874859782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58546,6 +58553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678911879371784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58560,6 +58568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678912032273881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58574,6 +58583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678912621573391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58588,6 +58598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678913666411383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58602,6 +58613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!114 &3380678913758598180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58616,6 +58628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1818125092280812455}
   damage: 1
+  sceneController: {fileID: 0}
 --- !u!61 &3474004241136331603
 BoxCollider2D:
   m_ObjectHideFlags: 0
