@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
-using UnityEngine; //Greg
+using UnityEngine;
+using UnityEngine.SceneManagement; //Greg
 
 public class SceneController : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    public void ReloadScene()
+        { SceneManager.LoadScene(currentSceneIndex); }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

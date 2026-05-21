@@ -4,11 +4,11 @@ public class ObstacleDamage : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public int damage = 1;
-
+    public SceneController sceneController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        sceneController = Object.FindFirstObjectByType<SceneController>();
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class ObstacleDamage : MonoBehaviour
         if (collision.gameObject.tag == "Player") // Check if the colliding GameObject has the tag "Player"
         {
             playerHealth.TakeDamage(damage); // If the colliding GameObject is the player, call the TakeDamage method on the playerHealth reference, passing in the damage value to reduce the player's health accordingly
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneController.currentSceneIndex);
         }
     }
 }
