@@ -13,9 +13,12 @@ public class Achievements : MonoBehaviour
     public List<Achievement> achievements;
 
     public int Tutorial;
+<<<<<<< Updated upstream
     public int Level1;
     public int Level2;
     public int Level3;
+=======
+>>>>>>> Stashed changes
     public int Level4;
 
     public bool AchievementUnlocked(string achievementName)
@@ -54,15 +57,22 @@ public class Achievements : MonoBehaviour
         achievements = new List<Achievement>();
         achievements.Add(new Achievement("Baby Steps", "Finish the Tutorial Level", (object o) => Tutorial == 1));
         achievements.Add(new Achievement("Level 4 Completed", "Finish Level 4", (object o) => Level4 == 1));
+<<<<<<< Updated upstream
         achievements.Add(new Achievement("Level 2 Completed", "Finish Level 2", (object o) => Level2 == 1));
         achievements.Add(new Achievement("Level 3 Completed", "Finish Level 3", (object o) => Level3 == 1));
+=======
+>>>>>>> Stashed changes
         achievements.Add(new Achievement("What's This?", "Collect a Skull", (object o) => SkullManager.instance.totalSkulls >= 1));
     }
 
     private void Update()
     {
         CheckAchievementCompletion();
+<<<<<<< Updated upstream
 
+=======
+        
+>>>>>>> Stashed changes
     }
 
     private void CheckAchievementCompletion()
@@ -84,6 +94,7 @@ public class Achievements : MonoBehaviour
         {
             Level4 = 1;
         }
+<<<<<<< Updated upstream
 
         if (collision.CompareTag("Player") && sceneController.currentSceneIndex == 4)
         {
@@ -94,6 +105,8 @@ public class Achievements : MonoBehaviour
         {
             Level3 = 4;
         }
+=======
+>>>>>>> Stashed changes
     }
 }
 
